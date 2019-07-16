@@ -40,6 +40,16 @@ router.get('/3jutilities', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
+router.get('/3jutilities', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/3jutilities.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
+router.get('/3kutilities', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/3kutilities.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
 
 
 app.use('/', router);
