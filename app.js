@@ -15,13 +15,23 @@ router.get('/', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
-router.get('/bootstrap1j', function (req, res) {
-    res.sendFile(path.join(__dirname + '/views/bootstrap1j.html'));
+router.get('/1jbootstrap', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/1jbootstrap.html'));
     //__dirname : It will resolve to your project folder.
 });
 
-router.get('/bootstrap1k', function (req, res) {
-    res.sendFile(path.join(__dirname + '/views/bootstrap1k.html'));
+router.get('/1kbootstrap', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/1kbootstrap.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
+router.get('/2kutilities', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/2kutilities.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
+router.get('/2jutilities', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/2jutilities.html'));
     //__dirname : It will resolve to your project folder.
 });
 
