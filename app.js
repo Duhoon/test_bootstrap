@@ -66,6 +66,16 @@ router.get('/5kgrid', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
+router.get('/6jgrid', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/6jgrid.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
+router.get('/6kgrid', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/6kgrid.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
 
 app.use('/', router);
 
