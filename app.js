@@ -45,6 +45,16 @@ router.get('/3kutilities', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
+router.get('/3kutilities', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/4jgrid.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
+router.get('/3kutilities', function (req, res) {
+    res.sendFile(path.join(__dirname + '/views/4kgrid.html'));
+    //__dirname : It will resolve to your project folder.
+});
+
 
 
 app.use('/', router);
